@@ -51,7 +51,7 @@
             <a href="#" class="logo">
                 <div style="display: flex; flex-direction: column; align-items: center;">
                     <img src="./assets/images/logo.png" width="60" height="15" alt="Register Marriages home">
-                    <span class="logo-text">Build on Trust</span>
+                    <span class="logo-text">Built on Trust</span>
                 </div>
             </a>
 
@@ -66,9 +66,9 @@
                         <a href="./service.html" class="label-lg navbar-link has-after">Services</a>
                     </li>
 
-                    <li class="navbar-item">
+                    <!-- <li class="navbar-item">
                         <a href="./portfolio.html" class="label-lg navbar-link has-after">Portfolio</a>
-                    </li>
+                    </li> -->
 
                     <li class="navbar-item">
                         <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
@@ -97,12 +97,28 @@
 
                     <div class="hero-content">
 
-                        <p class="hero-subtitle">👋, My name is Shabeer Ahamed</p>
+                        <p class="hero-subtitle">
+                            <script>
+                                const now = new Date();
+                                const hours = now.getHours();
+                                let greeting;
+
+                                if (hours < 12) {
+                                    greeting = "Good Morning";
+                                } else if (hours < 18) {
+                                    greeting = "Good Afternoon";
+                                } else {
+                                    greeting = "Good Evening";
+                                }
+
+                                document.write(`👋, ${greeting}`);
+                            </script>
+                        </p>
 
                         <h1 class="headline-lg">We provide Marriage Registration Services</h1>
 
                         <p class="hero-text body-md">
-                            Based in Navalur, Chennai.
+                            Based in Navalur, Chennai & Cumbum, Theni.
                         </p>
 
                     </div>
@@ -116,38 +132,6 @@
 
 
 
-            <!--?========== CLIENT ===========?-->
-
-            <section class="client" aria-label="Trusted client">
-                <div class="container">
-
-                    <ul class="slider">
-
-                        <li class="slider-item">
-                            <img src="./assets/images/client-1.svg" width="130" height="40" alt="clients" class="w-100">
-                        </li>
-
-                        <li class="slider-item">
-                            <img src="./assets/images/client-2.svg" width="130" height="40" alt="clients" class="w-100">
-                        </li>
-
-                        <li class="slider-item">
-                            <img src="./assets/images/client-3.svg" width="130" height="40" alt="clients" class="w-100">
-                        </li>
-
-                        <li class="slider-item">
-                            <img src="./assets/images/client-4.svg" width="130" height="40" alt="clients" class="w-100">
-                        </li>
-
-                        <li class="slider-item">
-                            <img src="./assets/images/client-5.svg" width="130" height="40" alt="clients" class="w-100">
-                        </li>
-                        
-                    </ul>
-
-                </div>
-            </section>
-
 
             <!--?========== ABOUT ===========?-->
 
@@ -155,44 +139,63 @@
                 <div class="container">
 
                     <figure class="about-banner">
-                        <img src="./assets/images/about-banner.png" width="580" height="554" loading="lazy" 
+                        <img src="./assets/images/about-banner.jpg" width="580" height="554" loading="lazy" 
                         alt="Muhammad Usama - Web Developer" class="w-100">
                     </figure>
 
                     <div class="about-content">
 
-                        <h2 class="title-lg">I'm a Front-end Developer with over 
-                            3 years of experience.
+                        <h2 class="title-lg">Divine Touch Associates
                         </h2>
 
                         <p class="body-md section-text">
-                            I am a front-end web developer, I have expertise
-                            in HTML, CSS, and JavaScript and have a strong
-                            foundation in web development best practices. I
-                            am skilled in building websites that are visually
-                            appealing, responsive, and user-friendly. 
+                            Our company, <strong>"Divine Touch Associates"</strong>, operates at OMR Road, Bharathiyar Street, No. 4/93. Along with services such as Document Registration, Marriage Registration, Register Marriage, and Foreign Embassy Attestations, our new branch combines additional services in Matrimonial Alliance and Real Estate.
+                            <br/>
+                            Our new branch in Theni district, Cumbum, has started operating from 01/02/2025.
+                            <br/>
+                            Customers from southern districts including Theni, Madurai, Dindigul, Sivagangai, Pudukkottai, Ramanathapuram, Tenkasi, Virudhunagar, Thoothukudi, Tirunelveli, Kanyakumari, and Kerala State can contact our Cumbum branch for services.
+                            <br/>
+                            <br/>
+
+                            <strong>Chennai Office Address:</strong><br/>
+                            Divine Touch Associates - Chennai Branch,
+                            No.4/93, Ground floor, Bharathiyar Street, Navalur, OMR, IT Highway, Chennai - 600130, Tamil Nadu.
+                            <br/>Landmark: Near Corner Stone Rivial Church.<br/><br/>
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                            <a href="tel:+919150055939" target="_blank" class="body-lg">+91 9150055939</a>
+                            <br/>
+
+                            <strong>Cumbum Branch Address:</strong><br/>
+                            Divine Touch Associates - Cumbum Branch,
+                            No.443 - A3, Ward No. 31, First Floor, Mani Nagar, L. F. Road, Cumbum - 625516, Theni District, Tamil Nadu. 
+                            <br/>Landmark: Near Cumbum Sub - Registrar office<br/><br/>
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                            <a href="tel:+918637456544" target="_blank" class="body-lg">+91 8637456544</a>
+                            <br/>
+
+                            
                         </p>
 
                         <ul class="about-list">
 
                             <li>
                                 <p class="list-text">
-                                    <strong class="strong title-md">109+</strong> Projet Completed
+                                    <strong class="strong title-md">10+</strong> Years of Experience
                                 </p>
                             </li>
 
                             <li>
                                 <p class="list-text">
-                                    <strong class="strong title-md">105+</strong> Happy Clients
+                                    <strong class="strong title-md">1000+</strong> Happy Clients
                                 </p>
                             </li>
 
                         </ul>
 
                         <div class="wrapper">
-                            <a href="./contact.html" class="btn btn-primary">Contact Me</a>
+                            <a href="./contact.html" class="btn btn-primary">Contact Us</a>
 
-                            <a href="./portfolio.html" class="btn btn-secondary">Portfolio</a>
+                            <a href="./portfolio.html" class="btn btn-secondary">Documents</a>
                         </div>
 
                     </div>
@@ -208,7 +211,7 @@
 
                     <div class="skill-content">
 
-                        <h2 class="section-title headline-md" id="skill-label">My Skills</h2>
+                        <h2 class="section-title headline-md" id="skill-label">Our Highlights</h2>
 
                         <ul class="skill-list">
 
@@ -219,7 +222,7 @@
                                         <ion-icon name="logo-html5"></ion-icon>
                                     </div>
 
-                                    <h2 class="card-title">HTML</h2>
+                                    <h2 class="card-title">One Day Process</h2>
 
                                 </div>
                             </li>
@@ -231,7 +234,7 @@
                                         <ion-icon name="logo-css3"></ion-icon>
                                     </div>
 
-                                    <h2 class="card-title">CSS</h2>
+                                    <h2 class="card-title">Bachelor Certificate not compulsory</h2>
 
                                 </div>
                             </li>
@@ -243,7 +246,7 @@
                                         <ion-icon name="logo-react"></ion-icon>
                                     </div>
 
-                                    <h2 class="card-title">React JS</h2>
+                                    <h2 class="card-title">Hassle free process</h2>
 
                                 </div>
                             </li>
@@ -255,7 +258,7 @@
                                         <ion-icon name="logo-angular"></ion-icon>
                                     </div>
 
-                                    <h2 class="card-title">Angular</h2>
+                                    <h2 class="card-title">Traditional ceremony not compulsory</h2>
 
                                 </div>
                             </li>
@@ -267,30 +270,17 @@
                                         <ion-icon name="logo-apple"></ion-icon>
                                     </div>
 
-                                    <h2 class="card-title">IOS App</h2>
+                                    <h2 class="card-title">Registraion in single visit</h2>
 
                                 </div>
                             </li>
-
-                            <li>
-                                <div class="card card-sm" style="background-color: hsl(245, 100%, 90%);">
-
-                                    <div class="card-media">
-                                        <ion-icon name="logo-android"></ion-icon>
-                                    </div>
-
-                                    <h2 class="card-title">App Dev</h2>
-
-                                </div>
-                            </li>
-
                         </ul>
 
                     </div>
 
                     <figure class="skill-banner">
-                        <img src="./assets/images/skill-banner.png" width="581" height="657" loading="lazy"
-                        alt="Alpha97 - Web Developer from KHI, PK" class="w-100">
+                        <img src="./assets/images/highlights.jpg" width="400" height="400" loading="lazy"
+                        alt="Satisfaction geranteed" class="w-100">
                     </figure>
 
                 </div>
@@ -302,7 +292,7 @@
 
             <section class="cta">
                 <div class="container">
-                    <h2 class="title-lg">Intrested working with me?</h2>
+                    <h2 class="title-lg">Intrested working with us?</h2>
 
                     <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
                 </div>
@@ -323,20 +313,19 @@
                             <div class="card card-lg">
 
                                 <figure class="card-media">
-                                    <img src="./assets/images/testi-1.jpg" width="100" height="100" loading="lazy"
-                                    alt="Jennifer Lutheran" class="img-cover">
+                                    <img src="./assets/images/test1.png" width="100" height="100" loading="lazy"
+                                    alt="Siva Senthil" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <blockquote class="body-sm">
-                                        Dolor lorem is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        The marriage registration process was seamless and efficient. The team guided us through every step and made it a hassle-free experience.
                                     </blockquote>
 
-                                    <p class="client-name">Jennifer Lutheran</p>
+                                    <p class="client-name">Siva Senthil</p>
 
-                                    <p class="client-title">CEO at pxdraft</p>
+                                    <p class="client-title">Software Engineer</p>
 
                                 </div>
 
@@ -347,20 +336,19 @@
                             <div class="card card-lg">
 
                                 <figure class="card-media">
-                                    <img src="./assets/images/testi-2.jpg" width="100" height="100" loading="lazy"
-                                    alt="Jennifer Lutheran" class="img-cover">
+                                    <img src="./assets/images/test2.png" width="100" height="100" loading="lazy"
+                                    alt="Priya Aravind" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <blockquote class="body-sm">
-                                        Dolor lorem is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        We were impressed with the professionalism and speed of the service. Our marriage was registered in just one visit.
                                     </blockquote>
 
-                                    <p class="client-name">Jennifer Lutheran</p>
+                                    <p class="client-name">Priya Aravind</p>
 
-                                    <p class="client-title">CEO at pxdraft</p>
+                                    <p class="client-title">Marketing Manager</p>
 
                                 </div>
 
@@ -371,44 +359,19 @@
                             <div class="card card-lg">
 
                                 <figure class="card-media">
-                                    <img src="./assets/images/testi-3.jpg" width="100" height="100" loading="lazy"
-                                    alt="Jennifer Lutheran" class="img-cover">
+                                    <img src="./assets/images/test3.png" width="100" height="60" loading="lazy"
+                                    alt="David Manickam" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <blockquote class="body-sm">
-                                        Dolor lorem is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        Excellent service! The staff was very helpful and made the entire process very smooth. Highly recommend for marriage registration.
                                     </blockquote>
 
-                                    <p class="client-name">Jennifer Lutheran</p>
+                                    <p class="client-name">David Manickam</p>
 
-                                    <p class="client-title">CEO at pxdraft</p>
-
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="slider-item card-container">
-                            <div class="card card-lg">
-
-                                <figure class="card-media">
-                                    <img src="./assets/images/testi-4.jpg" width="100" height="100" loading="lazy"
-                                    alt="Jennifer Lutheran" class="img-cover">
-                                </figure>
-
-                                <div class="card-content">
-
-                                    <blockquote class="body-sm">
-                                        Dolor lorem is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    </blockquote>
-
-                                    <p class="client-name">Jennifer Lutheran</p>
-
-                                    <p class="client-title">CEO at pxdraft</p>
+                                    <p class="client-title">Business Analyst</p>
 
                                 </div>
 
@@ -449,13 +412,32 @@
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </li>
-                
+                <li>
+                    <a href="https://wa.me/919150055939" class="social-link" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+919150055939" class="social-link" target="_blank">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </a>
+                </li>
             </ul>
 
             <p class="text-center">&copy;Copyright ⓒ 2025 All Rights reserved by Divine Touch Associates</p>
 
         </div>
     </footer>
+
+    <!-- Floating WhatsApp Icon -->
+    <a href="https://wa.me/919150055939" target="_blank" style="position:fixed;width:40px;height:40px;bottom:20px;right:10px;border-radius:50px;background-color:#25D366;display:flex;align-items:center;justify-content:center;z-index:1000;">
+        <ion-icon name="logo-whatsapp" style="color:white;font-size:20px;"></ion-icon>
+    </a>
+
+    <!-- Floating Phone Icon -->
+    <a href="tel:+919150055939" target="_blank" style="position:fixed;width:40px;height:40px;bottom:70px;right:10px;border-radius:60px;background-color:#34B7F1;display:flex;align-items:center;justify-content:center;z-index:1000;">
+        <ion-icon name="call-outline" style="color:white;font-size:20px;"></ion-icon>
+    </a>
 
     <!--?========== CUSTOM JS ===========?-->
 
